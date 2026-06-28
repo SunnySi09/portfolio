@@ -898,7 +898,7 @@ footer {
 
 .footer-columns-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 1.5rem;
 }
 
@@ -1007,6 +1007,18 @@ footer {
   border-top: 1px solid var(--border-color);
   padding-top: 1rem;
   line-height: 1.4;
+}
+
+/* Footer Bottom Copyright Bar */
+.footer-bottom-bar {
+  margin-top: 1.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--border-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
+  color: var(--text-muted);
 }
 
 /* Case Study detail adjustments */
