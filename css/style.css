@@ -1204,7 +1204,7 @@ footer {
 
 .about-page-grid {
   display: grid;
-  grid-template-columns: 1fr 1.05fr 1.05fr;
+  grid-template-columns: 1.5fr 1fr;
   gap: 1.5rem;
   align-items: start;
 }
