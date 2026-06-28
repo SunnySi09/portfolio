@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Sunny Singh Portfolio</title>
+  <meta name="description" content="Get in touch with Sunny Singh to discuss B2B SaaS dashboard designs, interface layouts, or project proposals.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header>
+    <div class="container nav-container">
+      <a href="index.html" class="logo-capsule">
+        Sunny Singh / UI/UX Designer
+      </a>
+      <nav class="nav-menu">
+        <a href="portfolio.html" class="nav-capsule">Portfolio</a>
+        <a href="about.html" class="nav-capsule">About</a>
+        <a href="contact.html" class="nav-capsule">Contact</a>
+      </nav>
+      <button class="hamburger" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Contact Hero -->
+  <section class="contact-hero">
+    <div class="container">
+      <div class="badge-capsule">Contact</div>
+      <h1 class="section-title" style="font-size: 3.5rem; letter-spacing: -0.03em; margin-top: 1rem; margin-bottom: 1rem;">Let's Talk About Your Project</h1>
+    </div>
+  </section>
+
+  <!-- Contact Portal Layout -->
+  <section class="container" style="padding-bottom: 8rem;">
+    <div class="contact-layout">
+      
+      <!-- Left Column - Expectation Guidelines -->
+      <div class="contact-steps">
+        <h2 style="font-size: 1.35rem; font-weight: 800; margin-bottom: 1.5rem; font-family: var(--font-headings);">What to Expect</h2>
+        
+        <div>
+          <div class="contact-step-num">01. Discovery Session</div>
+          <h3 class="contact-step-title">Initial Consultation</h3>
+          <p class="contact-step-desc">A brief alignment call to discuss user research scope, information goals, and timeline criteria.</p>
+        </div>
+
+        <div>
+          <div class="contact-step-num">02. Design Blueprint</div>
+          <h3 class="contact-step-title">Custom Proposal</h3>
+          <p class="contact-step-desc">Providing structured layout maps, project breakdowns, component scopes, and modular benchmarks.</p>
+        </div>
+
+        <div>
+          <div class="contact-step-num">03. Production Run</div>
+          <h3 class="contact-step-title">Collaborative Process</h3>
+          <p class="contact-step-desc">Regular interactive updates inside Figma, structured prototypes, usability tests, and design QA builds.</p>
+        </div>
+      </div>
+
+      <!-- Middle Column - Contact Form -->
+      <div class="contact-form-container">
+        <h2 class="contact-form-title">Send a Message</h2>
+        
+        <form id="contact-form">
+          <div class="form-grid-2">
+            <div class="form-group">
+              <label for="first-name" class="form-label">First Name *</label>
+              <input type="text" id="first-name" class="form-control" placeholder="First Name" required>
+            </div>
+            <div class="form-group">
+              <label for="last-name" class="form-label">Last Name *</label>
+              <input type="text" id="last-name" class="form-control" placeholder="Last Name" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="email" class="form-label">Email Address *</label>
+            <input type="email" id="email" class="form-control" placeholder="example@domain.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="company" class="form-label">Company/Organization</label>
+            <input type="text" id="company" class="form-control" placeholder="Company Name">
+          </div>
+
+          <div class="form-grid-2">
+            <div class="form-group">
+              <label for="project-type" class="form-label">Project Type</label>
+              <select id="project-type" class="form-control">
+                <option value="ERP/Dashboard">ERP/Dashboard SaaS</option>
+                <option value="E-Commerce">E-commerce storefront</option>
+                <option value="Web/Landing">Web Layout/Landing Page</option>
+                <option value="Other">Other UI Custom Work</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="project-timeline" class="form-label">Project Timeline</label>
+              <select id="project-timeline" class="form-control">
+                <option value="Under 1 month">Under 1 Month</option>
+                <option value="1-3 months">1 to 3 Months</option>
+                <option value="3+ months">3+ Months</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="services-select" class="form-label">Requested Service</label>
+            <select id="services-select" class="form-control">
+              <option value="UX Strategy & Research">UX Strategy & Research</option>
+              <option value="Interface UI Design">Interface UI Design</option>
+              <option value="Modular Design Systems">Modular Design Systems</option>
+              <option value="Full Product Cycle">Full Product UI/UX Cycle</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="project-desc" class="form-label">Tell me about your project *</label>
+            <textarea id="project-desc" class="form-control" placeholder="Describe the design challenge, target audience, and main goals..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn-capsule blue-cta">
+            <span>Send Message</span>
+            <span class="arrow-box">↗</span>
+          </button>
+        </form>
+      </div>
+
+      <!-- Right Column - Alternative Contact Platforms -->
+      <div class="contact-sidebar">
+        <h2 class="contact-sidebar-title">Alternative Portals</h2>
+        <p style="font-size: 0.95rem; color: var(--text-secondary);">Prefer messaging through a different service? Reach out directly on these social spaces:</p>
+        
+        <div class="contact-sidebar-buttons">
+          <a href="https://linkedin.com/in/sunny-singh-4817a9322" target="_blank" class="btn-capsule">
+            <span>LinkedIn</span>
+            <span class="arrow-box">↗</span>
+          </a>
+          <a href="https://bento.me/sunnysi" target="_blank" class="btn-capsule">
+            <span>Bento Profile</span>
+            <span class="arrow-box">↗</span>
+          </a>
+          <a href="mailto:sunnysinghsurat200@gmail.com" class="btn-capsule">
+            <span>Direct Email</span>
+            <span class="arrow-box">↗</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      
+      <!-- Big Header Capsule -->
+      <div class="footer-hero-bar">
+        <h2>Let's Create Something Exceptional Together</h2>
+      </div>
+
+      <div class="footer-columns-grid">
+        
+        <!-- Quick Links Widget -->
+        <div class="footer-widget">
+          <div class="footer-widget-header">Quick Links</div>
+          <div class="footer-widget-body">
+            <a href="portfolio.html" class="footer-button">
+              <span>Portfolio</span>
+              <span class="arrow-box">↗</span>
+            </a>
+            <a href="about.html" class="footer-button">
+              <span>About</span>
+              <span class="arrow-box">↗</span>
+            </a>
+            <a href="index.html#work" class="footer-button">
+              <span>Services</span>
+              <span class="arrow-box">↗</span>
+            </a>
+            <a href="contact.html" class="footer-button">
+              <span>Contact</span>
+              <span class="arrow-box">↗</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Contact links Widget -->
+        <div class="footer-widget">
+          <div class="footer-widget-header">Contact</div>
+          <div class="footer-widget-body">
+            <a href="https://linkedin.com/in/sunny-singh-4817a9322" target="_blank" class="footer-button">
+              <span>Linkedin</span>
+              <span class="arrow-box">↗</span>
+            </a>
+            <a href="https://dribbble.com" target="_blank" class="footer-button">
+              <span>Dribbble</span>
+              <span class="arrow-box">↗</span>
+            </a>
+            <a href="https://behance.net" target="_blank" class="footer-button">
+              <span>Behance</span>
+              <span class="arrow-box">↗</span>
+            </a>
+            <a href="https://instagram.com" target="_blank" class="footer-button">
+              <span>IG</span>
+              <span class="arrow-box">↗</span>
+            </a>
+            <a href="mailto:sunnysinghsurat200@gmail.com" class="footer-button">
+              <span>Email</span>
+              <span class="arrow-box">↗</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Legal Widget -->
+        <div class="footer-widget">
+          <div class="footer-widget-header">Legal</div>
+          <div class="footer-widget-body legal-body">
+            <div class="footer-legal-list">
+              <a href="#">Terms & Conditions</a>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Refund Policy</a>
+              <a href="#">Accessibility Statement</a>
+            </div>
+            <div class="footer-copyright">
+              &copy; 2026 by Sunny Singh. Powered and Secured by Wix
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
