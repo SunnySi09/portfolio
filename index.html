@@ -103,9 +103,17 @@
 
         <!-- Column 3 (Right) -->
         <div class="hero-col">
-          <!-- Top Split Row -->
+          <!-- Top Split Row: Download on top, Song below -->
           <div class="hero-split-row">
-            <!-- Soundwave Card (Synchronized Jukebox) -->
+            <!-- Download CV Card (top) -->
+            <a href="about.html" class="download-cv-card-new">
+              <span>Download</span>
+              <div class="download-circle-icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"></path></svg>
+              </div>
+            </a>
+
+            <!-- Soundwave Card (Synchronized Jukebox) - below -->
             <div class="soundwave-card-new" id="jukebox-card" style="cursor: pointer;">
               <div class="soundwave-animated-bars" id="jukebox-bars">
                 <span class="bar"></span>
@@ -118,31 +126,32 @@
                 <div class="soundwave-subtitle" id="jukebox-subtitle">Listen to my interview</div>
               </div>
             </div>
-            
-            <!-- Download CV Card -->
-            <a href="about.html" class="download-cv-card-new">
-              <span>Download</span>
-              <div class="download-circle-icon">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"></path></svg>
-              </div>
-            </a>
           </div>
           
           <!-- Active Pipeline Mockup Card -->
           <div class="active-pipeline-card-new">
             <div class="pipeline-header-new">
               <span>Active Pipeline</span>
-              <span class="badge-capsule" style="padding: 0.25rem 0.5rem; font-size: 0.65rem; margin-bottom: 0;">Team Interview</span>
+              <span class="badge-capsule" style="padding: 0.25rem 0.5rem; font-size: 0.65rem; margin-bottom: 0;">Store Admin</span>
             </div>
             <div class="pipeline-graphics">
               <div class="pipeline-circle-progress">
                 <div class="progress-val">22/30</div>
                 <div class="progress-lbl">Tasks Done</div>
               </div>
-              <div class="pipeline-steps-list">
-                <div class="pipeline-step-dot done"></div>
-                <div class="pipeline-step-dot done"></div>
-                <div class="pipeline-step-dot pending"></div>
+              <div class="pipeline-task-list">
+                <label class="pipeline-task-item">
+                  <input type="checkbox" class="pipeline-task-check" />
+                  <span>Website CMS changes</span>
+                </label>
+                <label class="pipeline-task-item">
+                  <input type="checkbox" class="pipeline-task-check" />
+                  <span>Product Management</span>
+                </label>
+                <label class="pipeline-task-item">
+                  <input type="checkbox" class="pipeline-task-check" />
+                  <span>Store Management</span>
+                </label>
               </div>
             </div>
           </div>
